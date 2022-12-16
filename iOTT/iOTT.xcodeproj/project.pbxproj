@@ -1,0 +1,860 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A49877829349606006D9E51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A49877729349606006D9E51 /* AppDelegate.swift */; };
+		0A49877A29349606006D9E51 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A49877929349606006D9E51 /* SceneDelegate.swift */; };
+		0A49878129349607006D9E51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A49878029349607006D9E51 /* Assets.xcassets */; };
+		0A49878429349607006D9E51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A49878229349607006D9E51 /* LaunchScreen.storyboard */; };
+		0A49878F29349607006D9E51 /* iOTTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A49878E29349607006D9E51 /* iOTTTests.swift */; };
+		0A49879929349607006D9E51 /* iOTTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A49879829349607006D9E51 /* iOTTUITests.swift */; };
+		0A49879B29349607006D9E51 /* iOTTUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A49879A29349607006D9E51 /* iOTTUITestsLaunchTests.swift */; };
+		0A4987AF293498CF006D9E51 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4987AE293498CF006D9E51 /* TabBarViewController.swift */; };
+		0A4987B129349935006D9E51 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4987B029349935006D9E51 /* HomeViewController.swift */; };
+		0A4987B329349945006D9E51 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4987B229349945006D9E51 /* SearchViewController.swift */; };
+		0A4987B52934995D006D9E51 /* UpcomingMoviewViesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4987B42934995D006D9E51 /* UpcomingMoviewViesController.swift */; };
+		0A4987B729349979006D9E51 /* DownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4987B629349979006D9E51 /* DownloadViewController.swift */; };
+		0A4987BD29349C86006D9E51 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4987BC29349C86006D9E51 /* APICaller.swift */; };
+		0A4987BF29349CC0006D9E51 /* DataPersistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4987BE29349CC0006D9E51 /* DataPersistance.swift */; };
+		0A4987C229349D7D006D9E51 /* Persistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4987C129349D7D006D9E51 /* Persistance.swift */; };
+		0A4987C629349DD5006D9E51 /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4987C529349DD5006D9E51 /* Title.swift */; };
+		0A4987C829349DF2006D9E51 /* YoutubeSearchReponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4987C729349DF2006D9E51 /* YoutubeSearchReponse.swift */; };
+		0A4987CB29349EE4006D9E51 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4987CA29349EE4006D9E51 /* Extension.swift */; };
+		0A4987CE29349F96006D9E51 /* TitlePreViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4987CD29349F96006D9E51 /* TitlePreViewModal.swift */; };
+		0A4987D229349FEE006D9E51 /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4987D129349FEE006D9E51 /* TitleViewModel.swift */; };
+		0A4987D72934AE59006D9E51 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4987D52934AE59006D9E51 /* CollectionViewTableViewCell.swift */; };
+		0A4987D82934AE59006D9E51 /* CollectionViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A4987D62934AE59006D9E51 /* CollectionViewTableViewCell.xib */; };
+		0A4987DA2934AE9B006D9E51 /* HeroHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4987D92934AE9B006D9E51 /* HeroHeaderView.swift */; };
+		0A4987DC2934AEDD006D9E51 /* TitleCollectionViewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4987DB2934AEDD006D9E51 /* TitleCollectionViewCollectionViewCell.swift */; };
+		0A4987DE2934AF24006D9E51 /* TitleTabbleViewCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4987DD2934AF24006D9E51 /* TitleTabbleViewCellTableViewCell.swift */; };
+		0AF0C5142937586D00D40CD0 /* iOTTDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0AF0C5122937586D00D40CD0 /* iOTTDB.xcdatamodeld */; };
+		0AF0C516293761EB00D40CD0 /* TitlePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF0C515293761EB00D40CD0 /* TitlePreviewViewController.swift */; };
+		0AF0C5182937620D00D40CD0 /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF0C5172937620D00D40CD0 /* SearchResultViewController.swift */; };
+		733BE4AAE4E414C488F9751A /* Pods_iOTT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F192E15EA52DB672757DDE87 /* Pods_iOTT.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A49878B29349607006D9E51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A49876C29349606006D9E51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A49877329349606006D9E51;
+			remoteInfo = iOTT;
+		};
+		0A49879529349607006D9E51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A49876C29349606006D9E51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A49877329349606006D9E51;
+			remoteInfo = iOTT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07CEA07BE5F6A7C72393266E /* Pods-iOTT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOTT.debug.xcconfig"; path = "Target Support Files/Pods-iOTT/Pods-iOTT.debug.xcconfig"; sourceTree = "<group>"; };
+		0A49877429349606006D9E51 /* iOTT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOTT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A49877729349606006D9E51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A49877929349606006D9E51 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0A49878029349607006D9E51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A49878329349607006D9E51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A49878529349607006D9E51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A49878A29349607006D9E51 /* iOTTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOTTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A49878E29349607006D9E51 /* iOTTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOTTTests.swift; sourceTree = "<group>"; };
+		0A49879429349607006D9E51 /* iOTTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOTTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A49879829349607006D9E51 /* iOTTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOTTUITests.swift; sourceTree = "<group>"; };
+		0A49879A29349607006D9E51 /* iOTTUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOTTUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0A4987AE293498CF006D9E51 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		0A4987B029349935006D9E51 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0A4987B229349945006D9E51 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		0A4987B42934995D006D9E51 /* UpcomingMoviewViesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingMoviewViesController.swift; sourceTree = "<group>"; };
+		0A4987B629349979006D9E51 /* DownloadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadViewController.swift; sourceTree = "<group>"; };
+		0A4987BC29349C86006D9E51 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		0A4987BE29349CC0006D9E51 /* DataPersistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPersistance.swift; sourceTree = "<group>"; };
+		0A4987C129349D7D006D9E51 /* Persistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistance.swift; sourceTree = "<group>"; };
+		0A4987C529349DD5006D9E51 /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		0A4987C729349DF2006D9E51 /* YoutubeSearchReponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeSearchReponse.swift; sourceTree = "<group>"; };
+		0A4987CA29349EE4006D9E51 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		0A4987CD29349F96006D9E51 /* TitlePreViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreViewModal.swift; sourceTree = "<group>"; };
+		0A4987D129349FEE006D9E51 /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewModel.swift; sourceTree = "<group>"; };
+		0A4987D52934AE59006D9E51 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
+		0A4987D62934AE59006D9E51 /* CollectionViewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewTableViewCell.xib; sourceTree = "<group>"; };
+		0A4987D92934AE9B006D9E51 /* HeroHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderView.swift; sourceTree = "<group>"; };
+		0A4987DB2934AEDD006D9E51 /* TitleCollectionViewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCollectionViewCell.swift; sourceTree = "<group>"; };
+		0A4987DD2934AF24006D9E51 /* TitleTabbleViewCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTabbleViewCellTableViewCell.swift; sourceTree = "<group>"; };
+		0AF0C5132937586D00D40CD0 /* iOTTDB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOTTDB.xcdatamodel; sourceTree = "<group>"; };
+		0AF0C515293761EB00D40CD0 /* TitlePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewController.swift; sourceTree = "<group>"; };
+		0AF0C5172937620D00D40CD0 /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
+		5E8320B5D8CDE25E368AE814 /* Pods-iOTT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOTT.release.xcconfig"; path = "Target Support Files/Pods-iOTT/Pods-iOTT.release.xcconfig"; sourceTree = "<group>"; };
+		F192E15EA52DB672757DDE87 /* Pods_iOTT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOTT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A49877129349606006D9E51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				733BE4AAE4E414C488F9751A /* Pods_iOTT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A49878729349607006D9E51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A49879129349607006D9E51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034CBF7A7DEB88794C0D8595 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F192E15EA52DB672757DDE87 /* Pods_iOTT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A49876B29349606006D9E51 = {
+			isa = PBXGroup;
+			children = (
+				0A49877629349606006D9E51 /* iOTT */,
+				0A49878D29349607006D9E51 /* iOTTTests */,
+				0A49879729349607006D9E51 /* iOTTUITests */,
+				0A49877529349606006D9E51 /* Products */,
+				E3663F4E4E3E8A007066CDED /* Pods */,
+				034CBF7A7DEB88794C0D8595 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0A49877529349606006D9E51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A49877429349606006D9E51 /* iOTT.app */,
+				0A49878A29349607006D9E51 /* iOTTTests.xctest */,
+				0A49879429349607006D9E51 /* iOTTUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A49877629349606006D9E51 /* iOTT */ = {
+			isa = PBXGroup;
+			children = (
+				0AF0C5112937584C00D40CD0 /* CoreData */,
+				0A4987B829349BC0006D9E51 /* Managers */,
+				0A4987C329349DB5006D9E51 /* Models */,
+				0A4987AD2934982E006D9E51 /* TabBar */,
+				0A4987A8293497E3006D9E51 /* Home */,
+				0A4987AA29349800006D9E51 /* Search */,
+				0A4987AB2934981A006D9E51 /* Upcoming */,
+				0A4987A7293497D3006D9E51 /* Download */,
+				0A4987B929349BF8006D9E51 /* SearchResult */,
+				0A4987BA29349C12006D9E51 /* TitlePreview */,
+				0A4987D32934ADE9006D9E51 /* View */,
+				0A4987CC29349F5A006D9E51 /* ViewModal */,
+				0A4987C929349EB6006D9E51 /* Others */,
+				0A49877729349606006D9E51 /* AppDelegate.swift */,
+				0A49877929349606006D9E51 /* SceneDelegate.swift */,
+				0A49878029349607006D9E51 /* Assets.xcassets */,
+				0A49878229349607006D9E51 /* LaunchScreen.storyboard */,
+				0A49878529349607006D9E51 /* Info.plist */,
+			);
+			path = iOTT;
+			sourceTree = "<group>";
+		};
+		0A49878D29349607006D9E51 /* iOTTTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A49878E29349607006D9E51 /* iOTTTests.swift */,
+			);
+			path = iOTTTests;
+			sourceTree = "<group>";
+		};
+		0A49879729349607006D9E51 /* iOTTUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A49879829349607006D9E51 /* iOTTUITests.swift */,
+				0A49879A29349607006D9E51 /* iOTTUITestsLaunchTests.swift */,
+			);
+			path = iOTTUITests;
+			sourceTree = "<group>";
+		};
+		0A4987A7293497D3006D9E51 /* Download */ = {
+			isa = PBXGroup;
+			children = (
+				0A4987B629349979006D9E51 /* DownloadViewController.swift */,
+			);
+			path = Download;
+			sourceTree = "<group>";
+		};
+		0A4987A8293497E3006D9E51 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0A4987B029349935006D9E51 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0A4987AA29349800006D9E51 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				0A4987B229349945006D9E51 /* SearchViewController.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		0A4987AB2934981A006D9E51 /* Upcoming */ = {
+			isa = PBXGroup;
+			children = (
+				0A4987B42934995D006D9E51 /* UpcomingMoviewViesController.swift */,
+			);
+			path = Upcoming;
+			sourceTree = "<group>";
+		};
+		0A4987AD2934982E006D9E51 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				0A4987AE293498CF006D9E51 /* TabBarViewController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		0A4987B829349BC0006D9E51 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				0A4987BC29349C86006D9E51 /* APICaller.swift */,
+				0A4987BE29349CC0006D9E51 /* DataPersistance.swift */,
+				0A4987C129349D7D006D9E51 /* Persistance.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		0A4987B929349BF8006D9E51 /* SearchResult */ = {
+			isa = PBXGroup;
+			children = (
+				0AF0C5172937620D00D40CD0 /* SearchResultViewController.swift */,
+			);
+			path = SearchResult;
+			sourceTree = "<group>";
+		};
+		0A4987BA29349C12006D9E51 /* TitlePreview */ = {
+			isa = PBXGroup;
+			children = (
+				0AF0C515293761EB00D40CD0 /* TitlePreviewViewController.swift */,
+			);
+			path = TitlePreview;
+			sourceTree = "<group>";
+		};
+		0A4987C329349DB5006D9E51 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0A4987C529349DD5006D9E51 /* Title.swift */,
+				0A4987C729349DF2006D9E51 /* YoutubeSearchReponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0A4987C929349EB6006D9E51 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				0A4987CA29349EE4006D9E51 /* Extension.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		0A4987CC29349F5A006D9E51 /* ViewModal */ = {
+			isa = PBXGroup;
+			children = (
+				0A4987CD29349F96006D9E51 /* TitlePreViewModal.swift */,
+				0A4987D129349FEE006D9E51 /* TitleViewModel.swift */,
+			);
+			path = ViewModal;
+			sourceTree = "<group>";
+		};
+		0A4987D32934ADE9006D9E51 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A4987D52934AE59006D9E51 /* CollectionViewTableViewCell.swift */,
+				0A4987D62934AE59006D9E51 /* CollectionViewTableViewCell.xib */,
+				0A4987D92934AE9B006D9E51 /* HeroHeaderView.swift */,
+				0A4987DB2934AEDD006D9E51 /* TitleCollectionViewCollectionViewCell.swift */,
+				0A4987DD2934AF24006D9E51 /* TitleTabbleViewCellTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0AF0C5112937584C00D40CD0 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				0AF0C5122937586D00D40CD0 /* iOTTDB.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		E3663F4E4E3E8A007066CDED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07CEA07BE5F6A7C72393266E /* Pods-iOTT.debug.xcconfig */,
+				5E8320B5D8CDE25E368AE814 /* Pods-iOTT.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A49877329349606006D9E51 /* iOTT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A49879E29349607006D9E51 /* Build configuration list for PBXNativeTarget "iOTT" */;
+			buildPhases = (
+				5C22A711B907319773E1C74B /* [CP] Check Pods Manifest.lock */,
+				0A49877029349606006D9E51 /* Sources */,
+				0A49877129349606006D9E51 /* Frameworks */,
+				0A49877229349606006D9E51 /* Resources */,
+				8376D9783B9E03FC6CD8A000 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOTT;
+			productName = iOTT;
+			productReference = 0A49877429349606006D9E51 /* iOTT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A49878929349607006D9E51 /* iOTTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A4987A129349607006D9E51 /* Build configuration list for PBXNativeTarget "iOTTTests" */;
+			buildPhases = (
+				0A49878629349607006D9E51 /* Sources */,
+				0A49878729349607006D9E51 /* Frameworks */,
+				0A49878829349607006D9E51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A49878C29349607006D9E51 /* PBXTargetDependency */,
+			);
+			name = iOTTTests;
+			productName = iOTTTests;
+			productReference = 0A49878A29349607006D9E51 /* iOTTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A49879329349607006D9E51 /* iOTTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A4987A429349607006D9E51 /* Build configuration list for PBXNativeTarget "iOTTUITests" */;
+			buildPhases = (
+				0A49879029349607006D9E51 /* Sources */,
+				0A49879129349607006D9E51 /* Frameworks */,
+				0A49879229349607006D9E51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A49879629349607006D9E51 /* PBXTargetDependency */,
+			);
+			name = iOTTUITests;
+			productName = iOTTUITests;
+			productReference = 0A49879429349607006D9E51 /* iOTTUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A49876C29349606006D9E51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					0A49877329349606006D9E51 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					0A49878929349607006D9E51 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 0A49877329349606006D9E51;
+					};
+					0A49879329349607006D9E51 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 0A49877329349606006D9E51;
+					};
+				};
+			};
+			buildConfigurationList = 0A49876F29349606006D9E51 /* Build configuration list for PBXProject "iOTT" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A49876B29349606006D9E51;
+			productRefGroup = 0A49877529349606006D9E51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A49877329349606006D9E51 /* iOTT */,
+				0A49878929349607006D9E51 /* iOTTTests */,
+				0A49879329349607006D9E51 /* iOTTUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A49877229349606006D9E51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A49878429349607006D9E51 /* LaunchScreen.storyboard in Resources */,
+				0A49878129349607006D9E51 /* Assets.xcassets in Resources */,
+				0A4987D82934AE59006D9E51 /* CollectionViewTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A49878829349607006D9E51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A49879229349607006D9E51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C22A711B907319773E1C74B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOTT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8376D9783B9E03FC6CD8A000 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOTT/Pods-iOTT-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOTT/Pods-iOTT-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOTT/Pods-iOTT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A49877029349606006D9E51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4987B329349945006D9E51 /* SearchViewController.swift in Sources */,
+				0AF0C5142937586D00D40CD0 /* iOTTDB.xcdatamodeld in Sources */,
+				0AF0C516293761EB00D40CD0 /* TitlePreviewViewController.swift in Sources */,
+				0A49877829349606006D9E51 /* AppDelegate.swift in Sources */,
+				0A4987D72934AE59006D9E51 /* CollectionViewTableViewCell.swift in Sources */,
+				0A4987C629349DD5006D9E51 /* Title.swift in Sources */,
+				0A4987BF29349CC0006D9E51 /* DataPersistance.swift in Sources */,
+				0A4987C829349DF2006D9E51 /* YoutubeSearchReponse.swift in Sources */,
+				0AF0C5182937620D00D40CD0 /* SearchResultViewController.swift in Sources */,
+				0A4987C229349D7D006D9E51 /* Persistance.swift in Sources */,
+				0A4987AF293498CF006D9E51 /* TabBarViewController.swift in Sources */,
+				0A4987DE2934AF24006D9E51 /* TitleTabbleViewCellTableViewCell.swift in Sources */,
+				0A4987B729349979006D9E51 /* DownloadViewController.swift in Sources */,
+				0A4987B52934995D006D9E51 /* UpcomingMoviewViesController.swift in Sources */,
+				0A4987CB29349EE4006D9E51 /* Extension.swift in Sources */,
+				0A49877A29349606006D9E51 /* SceneDelegate.swift in Sources */,
+				0A4987DA2934AE9B006D9E51 /* HeroHeaderView.swift in Sources */,
+				0A4987CE29349F96006D9E51 /* TitlePreViewModal.swift in Sources */,
+				0A4987B129349935006D9E51 /* HomeViewController.swift in Sources */,
+				0A4987BD29349C86006D9E51 /* APICaller.swift in Sources */,
+				0A4987DC2934AEDD006D9E51 /* TitleCollectionViewCollectionViewCell.swift in Sources */,
+				0A4987D229349FEE006D9E51 /* TitleViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A49878629349607006D9E51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A49878F29349607006D9E51 /* iOTTTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A49879029349607006D9E51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A49879B29349607006D9E51 /* iOTTUITestsLaunchTests.swift in Sources */,
+				0A49879929349607006D9E51 /* iOTTUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A49878C29349607006D9E51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A49877329349606006D9E51 /* iOTT */;
+			targetProxy = 0A49878B29349607006D9E51 /* PBXContainerItemProxy */;
+		};
+		0A49879629349607006D9E51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A49877329349606006D9E51 /* iOTT */;
+			targetProxy = 0A49879529349607006D9E51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A49878229349607006D9E51 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A49878329349607006D9E51 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A49879C29349607006D9E51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A49879D29349607006D9E51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A49879F29349607006D9E51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07CEA07BE5F6A7C72393266E /* Pods-iOTT.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2CM2XYBZX6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOTT/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZSGS.iOTT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A4987A029349607006D9E51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E8320B5D8CDE25E368AE814 /* Pods-iOTT.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2CM2XYBZX6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOTT/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZSGS.iOTT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0A4987A229349607006D9E51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2CM2XYBZX6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZSGS.iOTTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOTT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOTT";
+			};
+			name = Debug;
+		};
+		0A4987A329349607006D9E51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2CM2XYBZX6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZSGS.iOTTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOTT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOTT";
+			};
+			name = Release;
+		};
+		0A4987A529349607006D9E51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2CM2XYBZX6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZSGS.iOTTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOTT;
+			};
+			name = Debug;
+		};
+		0A4987A629349607006D9E51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2CM2XYBZX6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZSGS.iOTTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOTT;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A49876F29349606006D9E51 /* Build configuration list for PBXProject "iOTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A49879C29349607006D9E51 /* Debug */,
+				0A49879D29349607006D9E51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A49879E29349607006D9E51 /* Build configuration list for PBXNativeTarget "iOTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A49879F29349607006D9E51 /* Debug */,
+				0A4987A029349607006D9E51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A4987A129349607006D9E51 /* Build configuration list for PBXNativeTarget "iOTTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A4987A229349607006D9E51 /* Debug */,
+				0A4987A329349607006D9E51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A4987A429349607006D9E51 /* Build configuration list for PBXNativeTarget "iOTTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A4987A529349607006D9E51 /* Debug */,
+				0A4987A629349607006D9E51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0AF0C5122937586D00D40CD0 /* iOTTDB.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0AF0C5132937586D00D40CD0 /* iOTTDB.xcdatamodel */,
+			);
+			currentVersion = 0AF0C5132937586D00D40CD0 /* iOTTDB.xcdatamodel */;
+			path = iOTTDB.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0A49876C29349606006D9E51 /* Project object */;
+}
